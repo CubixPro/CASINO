@@ -172,6 +172,18 @@ class CASINO
                 }
             }
 
+            if(mon>high)
+            {
+                high = mon;
+                name2 = name;
+            }
+            System.out.println("\n HIGHSCORE-->");
+            if(i==0)
+            {
+                name2 = name;
+            }
+            System.out.println("Player : "+name2);
+            System.out.println("Score :"+high);
             
             System.out.println("\n\nWanna play again ? :D !!!!!!!!!!");
             String chc  = sc.next();
